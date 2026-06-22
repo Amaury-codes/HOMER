@@ -1,6 +1,7 @@
 {
-  "version": "1.4.0",
-  "download_url": "https://github.com/Amaury-codes/HOMER/releases/download/v1.4.0/HOMER.exe",
-  "release_notes": "Nouveautés et corrections de la v1.4...",
-  "release_date": "2026-05-31"
+  "version": "1.5",
+  "download_url": "https://github.com/Amaury-codes/HOMER/releases/latest/download/HOMER.exe",
+  "sha256": "53b63a8ac6d4352b6e4c5fbe50ed6e493c6e7cdd44c890875db734efe2a32051",
+  "release_notes": "",
+  "release_date": "2026-06-22"
 }
