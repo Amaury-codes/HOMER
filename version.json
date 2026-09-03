@@ -1,7 +1,10 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "download_url": "https://github.com/Amaury-codes/HOMER/releases/latest/download/HOMER.exe",
-  "sha256": "53b63a8ac6d4352b6e4c5fbe50ed6e493c6e7cdd44c890875db734efe2a32051",
-  "release_notes": "",
-  "release_date": "2026-06-22"
+  "sha256": "bba87a59c5a7c0a4b14f548f0b92931a39c887b8fd676bcefd0c95b7839300ff",
+  "release_notes": "Nouveau : suggestion automatique du plan (RAD) et remplissage automatique
+des champs (LAD, lasso magique). Travail à plusieurs sur le réseau local
+sans logiciel séparé à installer. Duplication des champs entre plans.
+Plusieurs corrections de fiabilité.",
+  "release_date": "2026-09-03"
 }
