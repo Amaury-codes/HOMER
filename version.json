@@ -1,7 +1,7 @@
 {
-  "version": "1.7.4",
+  "version": "1.7.5",
   "download_url": "https://github.com/Amaury-codes/HOMER/releases/latest/download/HOMER.exe",
-  "sha256": "2c7a7a5b2cfb2d72e1fbf0570b41239c33637b572d5382d5e39797103c77f807",
-  "release_notes": "Modifié :\n\n- Version de validation, sans changement fonctionnel, destinée à tester depuis une base v1.7.3 (déjà installée) le correctif de relancement automatique et le toast de confirmation introduits en v1.7.3.",
+  "sha256": "26c8a6ab42ad802b470f8e9cc16d1564d23ee7fc4aa57c972dfb7938492fcf8c",
+  "release_notes": "Modifié :\n\n- Version de validation, sans changement fonctionnel, destinée à tester depuis une base v1.7.4 (déjà installée) le correctif de relancement automatique introduit en v1.7.4 (renommage à chaud + environnement nettoyé des variables du bootloader PyInstaller).",
   "release_date": "2026-09-13"
 }
