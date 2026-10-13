@@ -1,7 +1,7 @@
 {
-  "version": "1.7.5",
+  "version": "1.8.0",
   "download_url": "https://github.com/Amaury-codes/HOMER/releases/latest/download/HOMER.exe",
-  "sha256": "26c8a6ab42ad802b470f8e9cc16d1564d23ee7fc4aa57c972dfb7938492fcf8c",
-  "release_notes": "Modifié :\n\n- Version de validation, sans changement fonctionnel, destinée à tester depuis une base v1.7.4 (déjà installée) le correctif de relancement automatique introduit en v1.7.4 (renommage à chaud + environnement nettoyé des variables du bootloader PyInstaller).",
-  "release_date": "2026-09-13"
+  "sha256": "4e6c4a494c0762525f1d7c443f5114a1f0d3b062a8be791bffe247e545b0b544",
+  "release_notes": "Ajouté :\n\n- Indexation des sous-dossiers en mode local : le scan parcourt désormais le dossier d'entrée et tous ses sous-dossiers, quelle que soit leur profondeur (auparavant, seuls les PDF placés à la racine étaient proposés). Chaque PDF est identifié par son chemin relatif (ex : ClientA/2026/facture.pdf), comme en mode réseau. Si le dossier de sortie est placé à l'intérieur du dossier d'entrée, il est ignoré pour ne pas re-proposer les documents déjà exportés.\n- Nouveau critère « Dossier d'origine » dans l'arborescence des dossiers de sortie (onglet Nommage) : reproduit en sortie les sous-dossiers d'entrée du PDF (ClientA/2026/facture.pdf → ClientA/2026/). Utilisé seul dans son niveau, il conserve les noms d'origine ; il se combine avec les index (ex : Dossier d'origine / Index 1) et est simplement ignoré pour un PDF situé à la racine. Disponible pour les dossiers PDF et TXT, en mode local comme en mode réseau.\n\nCorrigé :\n\n- Un PDF illisible situé dans un sous-dossier est renommé _broken_… dans son propre sous-dossier.\n- Mode réseau : les PDF marqués illisibles (préfixe _broken_) ne sont plus réindexés lors du scan du dossier source.",
+  "release_date": "2026-10-13"
 }
